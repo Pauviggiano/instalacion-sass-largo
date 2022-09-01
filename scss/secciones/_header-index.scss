@@ -1,0 +1,11 @@
+header{
+    background-color: aqua;
+    height: 10vh;
+    li{
+        display: flex;
+        list-style: none;
+        text-align: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+}

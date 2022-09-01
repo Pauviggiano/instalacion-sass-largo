@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.main-index {
+  background-color: #4be3db;
+  text-align: center;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column; }
+  .main-index .card {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 50px; }
+    .main-index .card h2 {
+      font-family: sans-serif; }
+      .main-index .card h2:hover {
+        color: bisque;
+        background-color: black; }
+    .main-index .card p {
+      margin: 10px; }
+    .main-index .card .btn {
+      margin: 10px;
+      padding: 5px; }
+      .main-index .card .btn:hover {
+        color: black;
+        background-color: #379bec; }
+
+@media (min-width: 550px) {
+  .main-index {
+    flex-direction: row; }
+    .main-index .card h2:hover {
+      background-color: blueviolet; } }
+
+header {
+  background-color: aqua;
+  height: 10vh; }
+  header li {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px; }
+
+.footer {
+  height: 10vh;
+  background-color: aqua; }
+  .footer form input {
+    margin: 5px;
+    padding: 6px; }
+    .footer form input:focus {
+      background-color: #3a69f5; }
+      .footer form input:focus::placeholder {
+        color: white; }

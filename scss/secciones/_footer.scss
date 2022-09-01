@@ -1,0 +1,17 @@
+.footer{
+    height: 10vh;
+    background-color: aqua;
+
+    form{
+        input{
+            margin: 5px;
+            padding: 6px;
+            &:focus{
+                background-color: rgb(58, 105, 245);
+                &::placeholder{
+                    color: white;
+                }
+            }
+        }
+    }
+}
